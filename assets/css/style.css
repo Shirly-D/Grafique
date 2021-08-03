@@ -106,6 +106,40 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  width: 100%;
+  position: absolute;
+}
+
+header .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 img {
+  width: 30%;
+}
+
+
+.menu { width: 70%; }
+.hamburger { text-indent: -9999px; }
+
+.menu nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu nav li {
+  flex-basis: 10%;
+  font-size: 17px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.menu nav li a { color: #fff;}
+
+
 
 
 
@@ -121,6 +155,15 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+
+.banner-section { background-color: #22242E; }
+.ban { display: none; }
+
+.banner-section .wrapper {
+  display: flex;
+}
+
+
 
 
 

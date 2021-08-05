@@ -261,9 +261,27 @@ header .wrapper {
   transition: 0.3s;
 }
 
-.project-section p:first-child {
+.project-left p:first-child {
   margin-top: 95px;
+  color: #CBCCCE;
+  font-size: 18px;
+  letter-spacing: 35px;
+  text-transform: uppercase;
 }
+
+.project-left {
+  width: 35%;
+  display: inline-block;
+}
+
+.project-left h2 {
+  margin-top: 78px;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+.project-left h2 span { font-weight: bolder;}
+
 
 
 

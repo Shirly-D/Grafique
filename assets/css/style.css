@@ -261,9 +261,8 @@ header .wrapper {
   transition: 0.3s;
 }
 
-.project-section span:first-child {
+.project-section p:first-child {
   margin-top: 95px;
-  display: inline-block;
 }
 
 

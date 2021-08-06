@@ -354,6 +354,8 @@ form div input {
   border-bottom: 2px solid #E7E7E7;
 }
 
+form ::placeholder { color: #D0D1D2;}
+
 form textarea {
   width: 66%;
   margin-top: 60px;
@@ -366,7 +368,7 @@ form textarea {
 
 form a {
   width: 13%;
-  padding: 20px;
+  padding: 30px 20px;
   border: 1px solid #000;
   margin: 0 auto;
   display: block;  
@@ -378,17 +380,6 @@ form a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*=================================
   main styling ends here
 =================================*/
@@ -396,6 +387,22 @@ form a {
 /*=================================
   footer styling starts here
 =================================*/ 
+
+footer {
+  margin-top: 60px;
+  background-color: #1F1F20;
+}
+
+.footer-top { padding: 35px 0; }
+
+.footer-top a img {
+  width: 50%;
+  border-right: 1px solid #59586C;
+  padding-right: 20px;
+  float: left;
+}
+
+.footer-top:first-child a { text-indent: -9999px;}
 
 
 

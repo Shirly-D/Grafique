@@ -402,7 +402,7 @@ footer {
   float: left;
 }
 
-.footer-top:first-child a { text-indent: -9999px;}
+.footer-top:first-child  { text-indent: -9999px;}
 
 
 

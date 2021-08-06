@@ -380,6 +380,12 @@ form a {
   text-transform: uppercase;
 }
 
+form a:hover {
+  color: #59586C;
+  background-color: #54BBE6;
+  transition: 0.5s;
+}
+
 
 /*=================================
   main styling ends here
@@ -394,16 +400,90 @@ footer {
   background-color: #1F1F20;
 }
 
-.footer-top { padding: 35px 0; }
+.footer-top .wrapper { width: 100%;}
+
+.footer-top {
+  padding: 35px 0 20px;
+  border-bottom: 1px solid #424243;
+}
 
 .footer-top a img {
-  width: 50%;
   border-right: 1px solid #59586C;
   padding-right: 20px;
   float: left;
 }
 
-.footer-top  { display: inline-block; }
+.foot-logo {
+  width: 12%;
+  display: inline-block;
+}
+
+.foot-logo a {
+  width:100%;
+  text-indent: -9999px;
+}
+
+.footer-top div:nth-child(2) { 
+  margin-left: 3%;
+  display: inline-block; 
+}
+
+.footer-top ul li:first-child { margin-left: 0; }
+
+.footer-top ul li {
+  margin-left: 14%;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.footer-top ul { 
+  width: 9%;
+  float: right; 
+}
+
+.footer-top ul li a { color: #787879; }
+
+.footer-top li a:hover { 
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-bottom { padding: 35px 0; }
+
+.footer-bottom p {
+  display: inline-block;
+  color: #787879;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.footer-bottom p a { color: #54BBE6; }
+
+.footer-bottom p a:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-bottom div:nth-child(2) { 
+  width: 10%;
+  float: right;
+}
+.footer-bottom div a:first-child { margin-left: 0; }
+
+.footer-bottom div:nth-child(2) a {
+  margin-left: 3%;
+  color: #8C8C8C;
+  font-size: 20px;
+  font-family: "FontAwesome"; 
+  /* text-indent: -9999px;  */
+}
+
+.facebook::before { content: "\f09a";}
+.twitter::before { content: "\f099";}
+.instagram::before { content: "\f16d";}
+
+
+
 
 
 

@@ -238,6 +238,14 @@ header .wrapper {
   font-size: 23px;
 }
 
+.banner-left h2 span {
+  margin-bottom: 1px;
+  margin-left: 0;
+  font-size: 60px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
 .banner-section .slider { margin-left: 12%; }
 .slider span:first-child { margin-left: 0; }
 
@@ -263,7 +271,6 @@ header .wrapper {
 
 .project-section {
   padding-bottom: 400px;
-  position: relative;
 }
 
 .project-left p:first-child {
@@ -290,27 +297,25 @@ header .wrapper {
 .project-left p:last-child::first-letter { text-transform: capitalize; }
 
 .project-left p:last-child {
-  margin-top: 50px;
+  margin-top: 40px;
   color: #D0D1D2;
   font-size: 21px;
   line-height: 28px;
 }
 
-.project-section figure {
-  width: 48%;
+.project-right figure {
+  width: 82%;
   display: inline-block;
   vertical-align: top;
   margin-top: 95px;
-  margin-left: 11%;
+  margin-left: 19%;
 }
 
-.project-section figure:last-child {
-  top: 457px;
-    width: 23%;
-    margin-top: 0px;
-    margin-left: 0;
-    position: absolute;
-    right: 490px;
+.project-right figure:last-child {
+  top: 380px;
+  width: 41%;
+  margin-left: 6%;
+  position: absolute;
 }
 
 .ask-section h3 {
@@ -319,15 +324,58 @@ header .wrapper {
   text-transform: uppercase;   
 }
 
+.project-right { 
+  width: 59%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top; 
+}
+
 .ask-section h3 span {
   display: block;
   font-weight: 900;
 }
 
-.ask-section form { text-align: center; }
+.ask-section form { 
+  margin-top: 50px;
+  text-align: center;
+}
 
+.ask-section form div { margin-top: 50px; }
 
+form div input {
+  width: 66%;
+  display: inline-block;
+  padding: 20px 0;
+  font-size: 22px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 2px solid #E7E7E7;
+}
 
+form textarea {
+  width: 66%;
+  margin-top: 60px;
+  font-size: 22px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 2px solid #E7E7E7;
+}
+
+form a {
+  width: 13%;
+  padding: 20px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  display: block;  
+  background-color: #22242D;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 
 

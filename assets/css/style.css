@@ -261,6 +261,11 @@ header .wrapper {
   transition: 0.3s;
 }
 
+.project-section {
+  padding-bottom: 400px;
+  position: relative;
+}
+
 .project-left p:first-child {
   margin-top: 95px;
   color: #CBCCCE;
@@ -270,7 +275,7 @@ header .wrapper {
 }
 
 .project-left {
-  width: 35%;
+  width: 40%;
   display: inline-block;
 }
 
@@ -280,7 +285,46 @@ header .wrapper {
   text-transform: uppercase;
 }
 
-.project-left h2 span { font-weight: bolder;}
+.project-left h2 span { display: block; }
+.project-left h2 span:last-child { font-weight: 900; }
+.project-left p:last-child::first-letter { text-transform: capitalize; }
+
+.project-left p:last-child {
+  margin-top: 50px;
+  color: #D0D1D2;
+  font-size: 21px;
+  line-height: 28px;
+}
+
+.project-section figure {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 95px;
+  margin-left: 11%;
+}
+
+.project-section figure:last-child {
+  top: 457px;
+    width: 23%;
+    margin-top: 0px;
+    margin-left: 0;
+    position: absolute;
+    right: 490px;
+}
+
+.ask-section h3 {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;   
+}
+
+.ask-section h3 span {
+  display: block;
+  font-weight: 900;
+}
+
+.ask-section form { text-align: center; }
 
 
 

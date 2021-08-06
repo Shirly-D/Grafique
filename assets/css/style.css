@@ -133,17 +133,18 @@ header .wrapper {
   float: left;
 }
 
+.header-left div { display: inline-block; }
+
 .arc {
   margin-top: 10px;
   display: inline-block;
   vertical-align: top;
+  color: #A5A7AA;
   font-size: 16px;
   text-transform: capitalize; 
 }
 
-.arc a { color: #A5A7AA; }
-
-.arc a:hover,
+.arc:hover,
 .menu nav li a:hover {
   color: #54BBE6;
   transition: 1.5s;
@@ -402,7 +403,7 @@ footer {
   float: left;
 }
 
-.footer-top:first-child  { text-indent: -9999px;}
+
 
 
 
